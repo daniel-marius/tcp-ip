@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tcp-ip"
+version = "0.0.1"
+description = "TCP/IP Protocol Stack Simulation"
+authors = ["Daniel Marius"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pydantic = "^2.12.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.14.13"
+pytest = "^9.0.2"
+pylint = "^4.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,70 @@
+# =========================
+# Python artifacts
+# =========================
+__pycache__/
+__ruff_cache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Poetry
+# =========================
+.poetry/
+poetry.lock.backup
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Packaging / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Pytest / coverage
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# MyPy / type checkers
+# =========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / runtime artifacts
+# =========================
+*.log
+*.pcap
+*.dump
+
+# =========================
+# Simulation artifacts
+# =========================
+sim_outputs/
+captures/
